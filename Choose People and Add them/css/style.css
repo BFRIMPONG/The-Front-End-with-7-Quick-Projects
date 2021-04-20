@@ -1,0 +1,41 @@
+.click-these-area{
+  width: 290px;
+  border: 5px solid green;
+}
+.click-these-area:hover{
+  opacity: 0.8;
+}
+
+.green-top{
+  background-color: green;
+  color: white;
+  padding: 3px 25px;
+}
+
+.highlight:hover {
+  opacity: 0.5;
+  font-size: 20px;
+  cursor: copy;
+
+}
+.it-goes-here-area{
+  width: 280px;
+  border: 5px solid red;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.red-top{
+  background-color: red;
+  color: white;
+  padding: 3px 25px;
+}
+/* hr{
+  margin: 5px 2px;
+} */
+
+img{
+  width: 90px;
+  height: 60px;
+}
