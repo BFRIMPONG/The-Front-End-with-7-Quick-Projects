@@ -1,0 +1,175 @@
+:root {
+  background-color: #e6dbda;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #e6dbda;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid rgb(27, 21, 82);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(27, 21, 82);
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(27, 21, 82);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+}
+
+
+img {
+  width: 300px;
+  border: 1px solid #333;
+  height: 315px;
+}
+
+#header {
+  font-size: 50px;
+}
+.btn-danger {
+  margin-right: 10px;
+}
+.btn-success {
+  margin-left: 10px;
+}
+
+
+.give-more {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.give-less {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+.swing {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.swing img {
+  border: 5px solid #f8f8f8;
+  display: block;
+}
+.swing:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  top: -10px;
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+/* nail */
+.swing:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -14px;
+  left: 54%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+/* @keyframes swing {
+  0% { transform: rotate(6deg); }
+  100% { transform: rotate(-6deg); }
+} */
+
+/* ljkjk */
+@keyframes swing {
+  0%,
+  100% {
+    transform: rotate(-30deg);
+  }
+  20% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+}
+
+.sweetlandia {
+  animation: swing 4s infinite ease-in-out;
+}
+
+.event {
+  margin: 50px auto;
+  text-align: center;
+}
