@@ -1,0 +1,58 @@
+body {
+  border-color: rgb(43, 43, 88);
+}
+.top-area {
+  border: 10px solid rgb(43, 43, 88);
+  text-align: center;
+  padding: 5px 4px;
+}
+
+.top-size {
+  font-size: 40px;
+}
+button {
+  width: 90px;
+  height: 50px;
+  background-color: rgb(43, 43, 88);
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(62, 62, 151);
+}
+.singer-pic {
+  border: 2px solid gray;
+}
+.singer-table {
+  width: 100%;
+  background-color: rgb(145, 164, 165);
+  color: white;
+}
+.singer-table td {
+  padding: 5px 10px;
+  border: 2px solid gray;
+  text-align: center;
+}
+
+.quality-icon {
+  width: 100px;
+  height: 100px;
+}
+.quality-icon:hover {
+  width: 80px;
+  height: 80px;
+}
+.name-size {
+  width: 300px;
+  font-size: 25px;
+}
+.name-size:hover {
+  background-color: gray;
+  font-size: 19px;
+  color: white;
+}
+img {
+  width: 265px;
+  height: 190px;
+}
