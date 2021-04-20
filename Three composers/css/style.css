@@ -1,0 +1,42 @@
+.top-table{
+    width: 100%;
+}
+.top-table tr{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+.top-table tr:hover{
+
+}
+.top-table td{
+    width: 33%;
+     border: 5px solid white;
+     padding: 5px 10px;
+     text-align: center;
+}
+.top-table td:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.top-table img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+.bottom-table{
+    border: 10px solid black;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.bottom-table tr:hover{
+    background-color: gray;
+}
+.bottom-table td{
+    font-size: 20px;
+    border: 5px solid gray;
+    text-align: center;
+    
+}
