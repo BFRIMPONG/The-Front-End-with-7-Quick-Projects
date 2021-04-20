@@ -143,12 +143,6 @@ img {
   background: #000;
 }
 
-/* @keyframes swing {
-  0% { transform: rotate(6deg); }
-  100% { transform: rotate(-6deg); }
-} */
-
-/* ljkjk */
 @keyframes swing {
   0%,
   100% {
