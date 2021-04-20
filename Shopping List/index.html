@@ -26,25 +26,37 @@
 
 
     <div class="container">
-        <div id="home" class="flex-center flex-column">
-            <h3>My Shopping List</h3>
-            <h4>So far <big>{{list.length}}</big> items</h4>
+        <div id="home" class="flex-center flex-column"><br>
+            <h3>My Shopping List</h3> <br>
+            <h4>So far <big>{{list.length}}</big> items</h4><br>
             <table class="styled-table">
                 <tr ng-repeat="item in list">
                     <td>{{$index + 1}}</td>
                     <td>{{item}}</td>
-                    <td><button class="btn btn-danger" id="remove-icon" ng-click="remove(item)">Remove</button></td>
+                    <td><button class="btn btn-danger" id="remove-icon" ng-click="remove(item)">X</button></td>
+                </tr>
+            </table><br>
+            <input type="text" ng-model="newItem" placeholder="Type item: ">
+            <button class="btn btn-success" ng-click="addItem(newItem)" id="add-icon">Add</button> <br>
+
+        </div>
+        <div id="home" class="del">
+            <h3>Deleted List</h3>
+            <h4>So far <big>{{delete.length}}</big> items</h4>
+            <table>
+                <tr ng-repeat="item in deleted">
+                    <td>{{$index + 1}}</td>
+                    <td>{{item}}</td>
+                    <td> <button  class="btn btn-success" ng-click="addBack(item)">+</button> </td>
                 </tr>
             </table>
-            <input type="text" ng-model="newItem" placeholder="Type item: ">
-            <button class="btn btn-success" ng-click="addItem(newItem)" id="add-icon">Add</button>
-
         </div>
     </div>
 
+  
 
-
-    
+    </div>
+  
     <script src="js/index.js"></script>
 </body>
 </html>
