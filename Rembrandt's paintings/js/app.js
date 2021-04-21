@@ -2,13 +2,13 @@ let app = angular.module("RembrandtApp", []);
 app.controller("PaintingController",function($scope){
     $scope.paintingCount = 0;
     $scope.paintings = [
-        "images/rembrandt_1_1.jpg",
-        "images/rembrandt_2.jpg",
-        "images/rembrandt_3.jpg",
-        "images/rembrandt_4.jpg",
-        "images/rembrandt_5.jpg",
-        "images/rembrandt_6.jpg",
-        "images/rembrandt_7.jpg",
+        "images/images.jpg",
+        "images/images (1).jpg",
+        "images/images (2).jpg",
+        "images/images (3).jpg",
+        "images/images (4).jpg",
+        "images/images (5).jpg",
+        "images/images (6).jpg",
     ];
 
     $scope.previous=function(){

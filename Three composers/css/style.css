@@ -6,7 +6,7 @@
     font-size: 30px;
     color: black;
     width: 300px;
-    box-shadow: 0.2rem .4rem .8rem 0 rgba(77, 235, 208, 0.377);
+    box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
     transition: 150ms;
 }
 .top-table td:hover{
@@ -34,13 +34,13 @@
     bottom: 0px;
 }
 .bottom-table tr{
-    box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(77, 235, 208, 0.377);
+    box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
     transition: 150ms;
 }
 .bottom-table tr:hover{
     width: 95vw;
     height: 70px;
-    box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(77, 235, 208, 0.377);
+    box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
     transition: 150ms;
     cursor: pointer;
     

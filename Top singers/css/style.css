@@ -7,7 +7,7 @@ body {
   margin: 10px auto;
   text-align: center;
   padding: 5px 4px;
-  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(77, 235, 208, 0.377);
+  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
 }
 
 .top-size {
@@ -43,15 +43,14 @@ button:hover {
 }
 
 .singer-table tr{
-  /* width: 300px; */
-  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(77, 235, 208, 0.377);
+  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
   transition: 150ms;
 }
 
 .singer-table tr:hover{
   width: 95vw;
   height: 250px;
-  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(77, 235, 208, 0.377);
+  box-shadow: 0.2rem 0.4rem 0.8rem 0 rgba(0, 17, 14, 0.377);
   transition: 150ms;
   cursor: pointer;
 
